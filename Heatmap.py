@@ -21,7 +21,7 @@ for line in csv_data:
                 csv_latitudes.append(float(lat))   # Convert latitude to float and append to the list.
                 csv_longitudes.append(float(lon))  # Convert longitude to float and append to the list.
 
-# Connect to the SQLite database 
+# Connect to the SQLite database // change it if you have it locally
 conn = sqlite3.connect('/home/azken/Database/sensor.db')   # Connect to the SQLite database.
 cursor = conn.cursor()    # Create a cursor object to execute SQL queries.
 
