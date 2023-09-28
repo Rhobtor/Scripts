@@ -1,9 +1,9 @@
 import paramiko
 
 # Configuración de la conexión al servidor
-servidor_host = 'Server'
-usuario = 'User'
-contraseña = 'Password'
+servidor_host = 'bender.us.es'
+usuario = 'azken'
+contraseña = 'azkenmuga'
 ruta_base_de_datos_remota = '/home/azken/Database/sensor.db'  # Ruta en el servidor
 
 # Nombre del archivo de la base de datos en tu ordenador local
